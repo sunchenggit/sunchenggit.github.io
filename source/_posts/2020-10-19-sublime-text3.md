@@ -1,5 +1,5 @@
 ---
-title: sublime-text3
+title: sublime-text3 插件安装以及软件配置
 date: 2020-10-19 17:35:19
 tags:
 ---
