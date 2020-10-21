@@ -14,8 +14,8 @@
 ## 博客技术栈
 + 服务器托管：`github pages`
 + 域名：`github pages` 的默认域名
-+ 博客主体：`hexo`
-+ 部署插件: `hexo-deployer-git`
++ 博客主体：`hexo`[地址](https://hexo.io/)
++ 主题: `hexo-theme-next`[地址](https://github.com/theme-next/hexo-theme-next)
 
 ## 持续化构建
 + travis

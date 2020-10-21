@@ -12,6 +12,7 @@ git config --global user.name "suncheng"
 git config --global user.email "157600408@qq.com"
 git config --global color.ui true
 ```
+<!--more-->
 
 2. 生成ssh密钥
 ```

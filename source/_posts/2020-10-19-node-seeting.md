@@ -8,6 +8,8 @@ tags:
 
 1. 直接[官网](https://nodejs.org/zh-cn/)下载`windows`版本安装
 
+<!--more-->
+
 2. 更换源为淘宝镜像源
 ```
 npm config set registry http://registry.npm.taobao.org

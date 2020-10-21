@@ -9,6 +9,8 @@ tags:
 ```
 yarn global dir
 ```
+<!--more-->
+
 2. 查看当前源
 ```
 yarn config get registry
