@@ -1,7 +1,9 @@
 ---
 title: yarn-setting
 date: 2020-10-19 17:33:43
-tags:
+tags: node
+categories: 
+- 前端环境
 ---
 # yarn 常用命令
 

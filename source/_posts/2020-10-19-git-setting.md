@@ -1,7 +1,9 @@
 ---
 title: git-setting
 date: 2020-10-19 17:34:44
-tags:
+tags: git
+categories: 
+- 前端环境
 ---
 
 # 基本设置

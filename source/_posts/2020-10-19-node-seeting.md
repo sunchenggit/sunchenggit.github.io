@@ -1,7 +1,9 @@
 ---
 title: node-seeting
 date: 2020-10-19 17:31:53
-tags:
+tags: node
+categories: 
+- 前端环境
 ---
 
 # Node安装与配置
