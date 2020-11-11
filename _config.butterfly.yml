@@ -14,7 +14,7 @@ menu:
   # List||fas fa-list:
   #   - Music || /music/ || fas fa-music
   #   - Movie || /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -23,7 +23,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -41,8 +41,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/sunchenggit || Github
+  fas fa-envelope: mailto:sun157600408@gmail.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -53,17 +53,9 @@ algolia_search:
   hits:
     per_page: 6
 
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
-    hits_stats: '${hits} results found in ${time} ms'
-
 # Local search
 local_search:
   enable: false
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
 # Math (數學)
 # --------------------------------------
@@ -95,7 +87,7 @@ avatar:
   effect: false
 
 # The banner image of home page
-index_img: http://ww1.sinaimg.cn/large/0066j6JFgy1gjzeeh60ntj31hc0u07wj.jpg
+index_img: http://ww1.sinaimg.cn/large/0066j6JFgy1gkl1l08de2j31hc0u0e82.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -108,7 +100,7 @@ archive_img:
 tag_img:
 
 # The banner image of tag page
-# format: 
+# format:
 #  - tag name: xxxxx
 tag_per_img:
 
@@ -117,16 +109,9 @@ tag_per_img:
 category_img:
 
 # The banner image of category page
-# format: 
+# format:
 #  - category name: xxxxx
 category_per_img:
-
-# If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
-# douban:
-#   meta: false
-#   movies_img:
-#   books_img:
-#   games_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -188,7 +173,6 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: true # auto open the sidebar
 
 post_copyright:
   enable: true
@@ -214,7 +198,7 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: true
+photofigcaption: false
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
@@ -317,6 +301,7 @@ valine:
   emojiCDN: # emoji CDN
   enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
+  option:
 
 # utterances
 # https://utteranc.es/
@@ -336,6 +321,10 @@ facebook_comments:
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
   lang: en_US # Language en_US/zh_CN/zh_TW and so on
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
 
 # Chat Services
 # --------------------------------------
@@ -561,7 +550,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -576,9 +565,9 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
-# blog_title_font:
-  # font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
-  # font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif
+blog_title_font:
+  font_link:
+  font-family:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -588,7 +577,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -600,12 +589,12 @@ subtitle:
   # source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: v1.hitokoto.cn
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub:
+  sub: 小白不白
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -615,6 +604,8 @@ preloader: false
 
 aside:
   enable: true
+  hide: false
+  button: true
   mobile: true # display on mobile
   position: right # left or right
   card_author:
@@ -828,7 +819,7 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+    # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
 
@@ -852,6 +843,7 @@ CDN:
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
