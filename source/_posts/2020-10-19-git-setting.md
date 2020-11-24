@@ -9,15 +9,17 @@ cover: https://ww1.sinaimg.cn/large/0066j6JFgy1gkl0x2t6zbj31hc0u0qv7.jpg
 # 基本设置
 
 1. 初始化用户名、邮箱以及颜色
-```
+``` shell
 git config --global user.name "suncheng"
 git config --global user.email "157600408@qq.com"
 git config --global color.ui true
+# 配置 git 推送和检出时不修改换行符(crlf/lf)
+git config --global core.autocrlf false
 ```
 <!--more-->
 
 2. 生成ssh密钥
-```
+```shell
 ssh-keygen -t rsa -C "157600408@qq.com" 
 ```
 
