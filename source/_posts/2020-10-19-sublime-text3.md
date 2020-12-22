@@ -52,6 +52,7 @@ categories:
 	* [Side​Bar​Enhancements](https://github.com/52fisher/SideBarEnhancements)  --左侧增强
 	* ColorSublime	--主体管理插件
 	* Agila Theme  --主题
+	* ayu  --主题
 	* A File Icon --文件类型图标
 3. 最后附上常用配置项
 	``` JSON
