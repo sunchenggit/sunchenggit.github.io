@@ -52,5 +52,12 @@ git push --set-upstream origin 本地分支名
     git config --local core.autocrlf input
 ```
 
+5. 清空git缓存
+```bash
+    git rm -r --cached .
+    git add .
+    git commit -m 'update .gitignore'
+```
+
 # mac下密钥位置
 > open ~/.ssh
