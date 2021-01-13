@@ -718,10 +718,10 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-butterfly@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npm.taobao.org/hexo-theme-butterfly/download/hexo-theme-butterfly-3.2.0.tgz#e82a76409ff3a1ff42c2f67d46cd76c8de998f1e"
-  integrity sha1-6Cp2QJ/zof9CwvZ9Rs12yN6Zjx4=
+hexo-theme-butterfly@^3.3.0:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/hexo-theme-butterfly/download/hexo-theme-butterfly-3.5.1.tgz#675432033c51c7eea3255277544610d58f51ade4"
+  integrity sha1-Z1QyAzxRx+6jJVJ3VEYQ1Y9RreQ=
   dependencies:
     hexo-renderer-pug "^1.0.0"
     hexo-renderer-stylus "^2.0.1"
