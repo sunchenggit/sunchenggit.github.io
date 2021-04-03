@@ -59,5 +59,10 @@ git push --set-upstream origin 本地分支名
     git commit -m 'update .gitignore'
 ```
 
+6. 重新再次输入密码
+```bash
+git config --system --unset credential.helper
+```
+
 # mac下密钥位置
 > open ~/.ssh
