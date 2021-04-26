@@ -2,7 +2,7 @@
 title: 友情链接
 date: 2020-11-11 10:59:52
 type: "link"
-top_img: https://ww1.sinaimg.cn/large/0066j6JFgy1gkl20j4jorj31hc0u0qv7.jpg
+top_img: https://cdn.jsdelivr.net/gh/sunchenggit/cdn/img/test.png
 ---
 
 -----------------------------------------

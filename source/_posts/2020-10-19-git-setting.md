@@ -3,7 +3,7 @@ title: git-setting
 date: 2020-10-19 17:34:44
 tags: git
 categories: 前端环境
-cover: https://ww1.sinaimg.cn/large/0066j6JFgy1gkl0x2t6zbj31hc0u0qv7.jpg
+cover: https://cdn.jsdelivr.net/gh/sunchenggit/cdn/img/data-model-4.png
 ---
 
 # 基本设置

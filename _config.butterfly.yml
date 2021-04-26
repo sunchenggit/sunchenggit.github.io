@@ -87,7 +87,7 @@ avatar:
   effect: false
 
 # The banner image of home page
-index_img: https://ww1.sinaimg.cn/large/0066j6JFgy1gkl1l08de2j31hc0u0e82.jpg
+index_img: https://cdn.jsdelivr.net/gh/sunchenggit/cdn/img/test.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
