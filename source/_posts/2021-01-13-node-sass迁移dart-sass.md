@@ -27,12 +27,16 @@ yarn add sass
 
 修改 webpack 配置，在 sass-loader 的 options 里加一行 implementation: require('sass')
 
-```shell
-{
-  loader: 'sass-loader',
-  options: {
-    implementation: require('sass'),
-    sourceMap: true
+```javascript
+// 基于vue-cli 的项目 vue.config.js
+module.exports = {
+  // 使用 dark-sass 替换 node-sass 来编译 sass 文件
+  css: {
+    loaderOptions: {
+      sass: {
+        implementation: require('sass'),
+      }
+    }
   }
 }
 ```
